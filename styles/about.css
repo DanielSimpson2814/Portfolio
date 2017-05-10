@@ -1,0 +1,155 @@
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 100vh;
+}
+html{
+  height: 100vh;
+}
+/*---------------------*/
+/*------- NAVBAR -----*/
+/*-------------------*/
+
+nav.navbar-inverse{
+  margin-bottom: 0;
+  background-color: #fff;
+  border: none;
+}
+.navbar-brand{
+  font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-nav>.active>a#navLink2, .navbar-inverse .navbar-nav>.active>a#navLink2:focus, .navbar-inverse .navbar-nav>.active>a#navLink2:hover{
+  background-color: #efa54e;
+  color: #fff;
+}
+
+#navLink1:hover{
+  color: #b46954;
+}
+#navLink2:hover{
+  color: #efa54e;
+}
+#navLink3:hover{
+  color: #56977f;
+}
+
+.color-row .red{
+  background: #b46954;
+  padding: 1.2px;
+}
+.color-row .yellow{
+  background: #efa54e;
+  padding: 1.2px;
+}
+.color-row .green{
+  background: #288864;
+  padding: 1.2px;
+}
+
+/*--- MOBILE BUTTON ---*/
+
+.navbar-inverse .navbar-toggle{
+  border-color: #fff;
+  background-color: #9d9d9d;
+}
+
+/*-------------------------*/
+/*----- MAIN CONTENT -----*/
+/*-----------------------*/
+main div#about-wrap{
+  margin-top: 20px;
+}
+
+main .about{
+  line-height: 2;
+
+}
+
+main .about p{
+  font-size: 1.6rem;
+}
+main .self-pic img{
+  border-radius: 50%;
+  width: 100%;
+}
+
+#tools{
+  padding: 1em;
+}
+
+#tools p{
+  display: inline-block;
+  font-size: 2rem;
+  margin: 6px;
+}
+
+#random{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#random-title h1{
+  font-family: 'Monoton', cursive;
+  font-size: 6em;
+  margin-top: 0;
+}
+#random-body p{
+  line-height: 2;
+  font-size: 1.6rem;
+}
+/*-------------------------*/
+/*----- FOOTER -----------*/
+/*-----------------------*/
+footer{
+  background-color: #3c383a;
+  bottom: 0;
+  padding: 15px;
+}
+footer .icons i{
+  font-size: 4em;
+  color: #efa54e;
+  padding: 15px;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 800ms;
+}
+
+@media (min-width: 768px) {
+
+  main div#about-wrap{
+    margin-top: 50px;
+  }
+
+  #skills{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  footer .icons i{
+    padding: 30px;
+  }
+}
