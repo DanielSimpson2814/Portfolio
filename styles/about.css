@@ -150,6 +150,10 @@ footer .icons i{
   .navbar-brand{
     font-size: 6rem;
   }
+
+  main{
+    height: 100vh;
+  }
 }
 
 
