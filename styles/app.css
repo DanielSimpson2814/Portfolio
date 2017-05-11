@@ -150,6 +150,10 @@ footer.footer .icons i.fa{
   .intro p{
     font-size: 8rem;
   }
+  footer.footer .icons i.fa{
+    font-size: 8em;
+    margin-left: 2rem;
+  }
 }
 
 
