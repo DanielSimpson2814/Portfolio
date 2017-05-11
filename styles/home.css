@@ -298,7 +298,9 @@ footer .icons i{
     height: 35rem;
   }
 
-
+  .carousel-inner .item{
+    padding: 30px 38%;
+  }
 
 }
 
