@@ -133,7 +133,7 @@ footer.footer .icons i.fa{
 /*----------------------------*/
 /*------ MEDIA QUERRIES -----*/
 /*--------------------------*/
-@media (min-width: 1500px){
+@media (min-width: 3000px){
   .navbar.navbar-default{
     font-size: 8rem;
     margin-top: 20px;
