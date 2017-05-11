@@ -279,6 +279,21 @@ footer .icons i{
 /*-------------------------*/
 /*----- MEDIA QUERRIES----*/
 /*-----------------------*/
+
+@media (min-width: 3000px){
+  
+  .navbar.navbar-inverse{
+    font-size: 6rem;
+  }
+  .navbar-brand{
+    font-size: 6rem;
+  }
+
+}
+
+
+
+
 @media (min-width: 768px){
   #ban-circle{
     padding-top: 70px;
