@@ -154,6 +154,10 @@ footer .icons i{
   main{
     height: 100vh;
   }
+  main .about{
+    text-align: center;
+    margin-top: 8em;
+  }
 }
 
 
