@@ -152,11 +152,45 @@ footer .icons i{
   }
 
   main{
-    height: 100vh;
+    /*height: 100vh;*/
   }
   main .about{
     text-align: center;
+    margin-top: 10em;
+  }
+
+  main .about h2{
+    font-size: 6rem;
+  }
+
+  main .about p{
+    font-size: 4rem;
+  }
+
+  main #skills{
     margin-top: 8em;
+
+  }
+
+  main #skills h3{
+    font-size: 6rem;
+  }
+
+  main #skills #tools p{
+    font-size: 4rem;
+  }
+
+  main div#random{
+    text-align: center;
+  }
+
+  #random-body p{
+    font-size: 4rem;
+  }
+
+  footer .icons i.fa{
+    font-size: 8em;
+    margin-left: 2rem;
   }
 }
 
