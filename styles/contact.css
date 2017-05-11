@@ -151,6 +151,17 @@ footer .icons i{
   .navbar-brand{
     font-size: 6rem;
   }
+
+  main{
+    padding-top: 20%;
+  }
+
+  footer{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+  }
+
 }
 
 
