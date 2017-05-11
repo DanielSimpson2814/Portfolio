@@ -153,7 +153,28 @@ footer .icons i{
   }
 
   main{
-    padding-top: 20%;
+    padding-top: 10%;
+  }
+
+  main h3{
+    font-size: 6em;
+  }
+
+  main form .form-group .form-control{
+    font-size: 3em;
+    padding:1em;
+  }
+
+  button.btn{
+    font-size: 3em;
+  }
+
+  main .thankyou h1{
+    font-size: 6em;
+  }
+
+  main .thankyou p{
+    font-size: 3em;
   }
 
   footer{
