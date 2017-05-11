@@ -281,13 +281,24 @@ footer .icons i{
 /*-----------------------*/
 
 @media (min-width: 3000px){
-  
+
   .navbar.navbar-inverse{
     font-size: 6rem;
   }
   .navbar-brand{
     font-size: 6rem;
   }
+  main a.get-started{
+    font-size: 35px;
+    color: #efa54e;
+    border-color: #efa54e;
+  }
+
+  [class*='thumb-']{
+    height: 35rem;
+  }
+
+
 
 }
 
