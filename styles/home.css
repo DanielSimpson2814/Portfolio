@@ -302,6 +302,11 @@ footer .icons i{
     padding: 30px 38%;
   }
 
+  footer .icons i.fa{
+    font-size: 8em;
+    margin-left: 2rem;
+  }
+
 }
 
 
