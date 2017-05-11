@@ -138,6 +138,9 @@ footer.footer .icons i.fa{
     font-size: 8rem;
     margin-top: 20px;
   }
+  div.thumbnail img.img-responsive{
+    width: 90%;
+  }
 }
 
 
