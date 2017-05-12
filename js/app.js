@@ -1,5 +1,38 @@
 $(document).ready(function(){
 
+
+
+
+    var w = $(window).width();
+
+
+    if(w >= 3000){
+
+      $("main div.site-gallery > div").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#about-wrap div").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#skills").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#random div").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+    }
+
+    if(w < 3000){
+
+      $("main div.site-gallery > div").removeClass("col-lg-12");
+
+      $("main div#about-wrap div").removeClass("col-lg-12");
+
+      $("main div#skills").removeClass("col-lg-12");
+
+      $("main div#random div").removeClass("col-lg-12");
+    }
+
+
+
+
+
   // NAVBAR-BRAND COLOR CHANGE ON HOVER
   $(".navbar-inverse .navbar-brand").mouseenter(function(){
     $(".navbar-inverse .navbar-brand").css("color", "#b46954");

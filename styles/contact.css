@@ -142,6 +142,66 @@ footer .icons i{
 /*---------------------------*/
 /*----- MEDIA QUERRIES -----*/
 /*------------------------*/
+
+@media (min-width: 3000px){
+
+  .navbar.navbar-inverse{
+    font-size: 6rem;
+  }
+  .navbar-brand{
+    font-size: 6rem;
+    padding: 1em;
+  }
+
+  #navLink1{
+    padding: 1em;
+  }
+  #navLink2{
+    padding: 1em;
+  }
+  #navLink3{
+    padding: 1em;
+  }
+
+  main{
+    padding-top: 10%;
+  }
+
+  main h3{
+    font-size: 6em;
+  }
+
+  main form .form-group .form-control{
+    font-size: 3em;
+    padding:1em;
+  }
+
+  button.btn{
+    font-size: 3em;
+  }
+
+  main .thankyou h1{
+    font-size: 6em;
+  }
+
+  main .thankyou p{
+    font-size: 3em;
+  }
+
+  footer{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+  }
+
+  footer .icons i.fa{
+    font-size: 8em;
+    margin-left: 2rem;
+  }
+
+}
+
+
 @media (min-width: 768px) {
   footer .icons i{
     padding: 30px;
