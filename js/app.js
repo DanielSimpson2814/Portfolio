@@ -1,5 +1,27 @@
 $(document).ready(function(){
 
+
+
+
+    var w = $(window).width();
+
+
+    if(w >= 3000){
+
+      $("main div.site-gallery > div").addClass("col-lg-12", "col-lg-offset-0");
+
+    }
+
+    if(w < 3000){
+
+      $("main div.site-gallery > div").removeClass("col-lg-12");
+
+    }
+
+
+
+
+
   // NAVBAR-BRAND COLOR CHANGE ON HOVER
   $(".navbar-inverse .navbar-brand").mouseenter(function(){
     $(".navbar-inverse .navbar-brand").css("color", "#b46954");

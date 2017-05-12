@@ -151,8 +151,8 @@ footer .icons i{
     font-size: 6rem;
   }
 
-  main{
-    /*height: 100vh;*/
+  main .self-pic img{
+    width: 100%;
   }
   main .about{
     text-align: center;
