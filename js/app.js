@@ -8,7 +8,13 @@ $(document).ready(function(){
 
     if(w >= 3000){
 
-      $("main div.site-gallery > div").addClass("col-lg-12", "col-lg-offset-0");
+      $("main div.site-gallery > div").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#about-wrap div").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#skills").addClass("col-lg-12").addClass("col-lg-offset-0");
+
+      $("main div#random div").addClass("col-lg-12").addClass("col-lg-offset-0");
 
     }
 
@@ -16,6 +22,11 @@ $(document).ready(function(){
 
       $("main div.site-gallery > div").removeClass("col-lg-12");
 
+      $("main div#about-wrap div").removeClass("col-lg-12");
+
+      $("main div#skills").removeClass("col-lg-12");
+
+      $("main div#random div").removeClass("col-lg-12");
     }
 
 
