@@ -150,6 +150,17 @@ footer .icons i{
   }
   .navbar-brand{
     font-size: 6rem;
+    padding: 1em;
+  }
+
+  #navLink1{
+    padding: 1em;
+  }
+  #navLink2{
+    padding: 1em;
+  }
+  #navLink3{
+    padding: 1em;
   }
 
   main{
